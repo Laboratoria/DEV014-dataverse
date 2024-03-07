@@ -1,378 +1,360 @@
 export default [
   {
-    "id": "ada-lovelace",
-    "name": "Ada Lovelace",
-    "shortDescription": "Pionera en la programación, primera programadora de la historia.",
-    "description": "Una visionaria matemática británica del siglo XIX, es aclamada como la primera programadora de la historia. Su colaboración con Charles Babbage en la creación de la Máquina Analítica la llevó a desarrollar algoritmos, incluyendo el famoso \"algoritmo de Bernoulli\", destinados a ser procesados por una máquina. Su visión pionera la convirtió en una figura fundamental en la informática y la inteligencia artificial. Lovelace demostró que las computadoras podían ir más allá de simples cálculos matemáticos, anticipando un mundo donde la programación sería esencial en la resolución de problemas complejos, dejando una huella imborrable en la ciencia y la tecnología.",
-    "imageUrl": "https://laboratoria-dataverse-talks.netlify.app/public/ada-lovelace.jpg",
-    "facts": {
-      "yearOfBirth": "1815",
-      "yearOfDeath": "1852",
-      "birthPlace": "Londres, Reino Unido",
-      "mainField": "Ciencia de la Computación"
+    id: "shakira",
+    name: "Shakira",
+    shortDescription:
+      "Cantante y bailarina colombiana, ícono internacional de la música pop y latina.",
+    description:
+      "Shakira, nacida en Barranquilla, Colombia, es una artista multifacética que ha conquistado el escenario mundial con su energía, voz única y movimientos de cadera inconfundibles. Su carrera abarca décadas y ha dejado un impacto duradero en la música pop y latina.",
+    imageUrl:
+      "https://www.shakiraperfumes.com/images/perfumes/rojo/extra-content/extra-2-v2.webp",
+    facts: {
+      añoDeNacimiento: 1977,
+      lugarDeNacimiento: "Barranquilla, Colombia",
+      géneroMusical: "Pop, Rock, Latino",
     },
-    "extraInfo": {
-      "imageSource": "https://www.bing.com/images/create/genera-una-imagen-de-ada-lovelace2c-la-primera-prog/650a1eff8ff04b88833d5cdef0309441"
-    }
   },
   {
-    "id": "emmy-noether",
-    "name": "Emmy Noether",
-    "shortDescription": "Matemática destacada, teorema fundamental en álgebra abstracta.",
-    "description": "Una brillante matemática alemana, revolucionó la física teórica con sus contribuciones al teorema de conservación de la energía y el teorema de Noether, fundamentales en la teoría de la relatividad y la mecánica cuántica. A pesar de los obstáculos que enfrentó como mujer en la academia, sus investigaciones en álgebra abstracta y teoría de grupos son fundamentales en la física moderna. Su capacidad para unificar conceptos matemáticos y físicos marcó un hito en la historia de la ciencia, allanando el camino para futuras generaciones de científicas.",
-    "imageUrl": "https://laboratoria-dataverse-talks.netlify.app/public/emmy-noether.jpg",
-    "facts": {
-      "yearOfBirth": "1882",
-      "yearOfDeath": "1935",
-      "birthPlace": "Erlangen, Alemania",
-      "mainField": "Matemáticas"
+    id: "enrique-iglesias",
+    name: "Enrique Iglesias",
+    shortDescription:
+      "Cantante español, referente del pop latino y baladas románticas.",
+    description:
+      "Enrique Iglesias, conocido como el 'Rey del Pop Latino', ha dejado huella en la música con su voz cautivadora y éxitos que han conquistado corazones alrededor del mundo. Nació en Madrid, España, en 1975, y su nacionalidad española lo conecta profundamente con sus raíces.",
+    imageUrl:
+      "https://srrsyko.weebly.com/uploads/4/3/3/8/43386459/5346368_orig.jpg",
+    facts: {
+      añoDeNacimiento: 1975,
+      lugarDeNacimiento: "Madrid, España",
+      nacionalidad: "Español",
     },
-    "extraInfo": {
-      "imageSource": "https://www.bing.com/images/create/create-an-image-of-of-a-german-woman2c-a-pioneering/6510ddb1e8254b928b8f8f1d5e95fea4"
-    }
   },
   {
-    "id": "hypatia-de-alejandria",
-    "name": "Hypatia de Alejandría",
-    "shortDescription": "Matemática y filósofa en la antigua Alejandría.",
-    "description": "Filósofa y matemática en la antigua Alejandría, desafió las normas de género de su época al destacar en una sociedad dominada por hombres. Su legado incluye importantes contribuciones a la geometría y la astronomía, así como su destacado papel como maestra y defensora del conocimiento en una época de agitación política. Hypatia demostró que las mujeres podían sobresalir en campos intelectuales y su valentía al mantener sus creencias filosóficas la convierte en un símbolo de resistencia y sabiduría en la historia de la ciencia.",
-    "imageUrl": "https://laboratoria-dataverse-talks.netlify.app/public/hypatia-de-alejandria.jpg",
-    "facts": {
-      "yearOfBirth": "circa 360",
-      "yearOfDeath": "415",
-      "birthPlace": "Alejandría, Egipto",
-      "mainField": "Matemáticas, Filosofía"
+    id: "lady-gaga",
+    name: "Lady Gaga",
+    shortDescription:
+      "Cantante, actriz y activista estadounidense, reconocida por su estilo innovador y voz potente.",
+    description:
+      "Lady Gaga, cuyo nombre real es Stefani Joanne Angelina Germanotta, es una artista polifacética que ha dejado una marca indeleble en la música, el cine y la moda. Con una carrera marcada por la innovación y la autenticidad, Lady Gaga continúa siendo una influencia destacada en la cultura pop.",
+    imageUrl: "https://img2.rtve.es/im/6195119/?w=900",
+    facts: {
+      añoDeNacimiento: 1986,
+      lugarDeNacimiento: "Nueva York, Estados Unidos",
+      géneroMusical: "Pop, Dance, Electrónica",
     },
-    "extraInfo": {
-      "imageSource": "https://www.bing.com/images/create/create-a-vivid-digital-artwork-or-painting-that-de/6510df0ebe1a4807af22175452761e1a"
-    }
   },
   {
-    "id": "marjorie-lee-browne",
-    "name": "Marjorie Lee Browne",
-    "shortDescription": "Matemática, contribuyó a la teoría de números.",
-    "description": "Matemática estadounidense, destacó en una época en la que las mujeres afroamericanas enfrentaban múltiples barreras en la educación superior. No solo obtuvo su doctorado en matemáticas, sino que también se convirtió en una destacada educadora, promoviendo la diversidad en las ciencias matemáticas y desafiando la discriminación racial y de género. Su compromiso con la educación y su capacidad para inspirar a futuras generaciones la convierten en un modelo a seguir para las mujeres en la ciencia, dejando una huella perdurable en la historia académica.",
-    "imageUrl": "https://laboratoria-dataverse-talks.netlify.app/public/marjorie-lee-browne.jpg",
-    "facts": {
-      "yearOfBirth": "1914",
-      "yearOfDeath": "1979",
-      "birthPlace": "Memphis, Estados Unidos",
-      "mainField": "Matemáticas"
+    id: "justin-bieber",
+    name: "Justin Bieber",
+    shortDescription:
+      "Cantante y compositor canadiense, descubierto a temprana edad en YouTube.",
+    description:
+      "Justin Bieber, conocido como el fenómeno pop adolescente, saltó a la fama a una edad temprana gracias a su talento vocal y carisma. Con una carrera que ha evolucionado desde sus inicios, Bieber sigue siendo una figura destacada en la escena musical internacional.",
+    imageUrl: "https://i.blogs.es/2f3455/justin-bieber-3-/650_1200.jpg",
+    facts: {
+      añoDeNacimiento: 1994,
+      lugarDeNacimiento: "Stratford, Ontario, Canadá",
+      nacionalidad: "Canadiense",
     },
-    "extraInfo": {
-      "imageSource": "https://www.bing.com/images/create/design-an-inspiring-and-historically-accurate-imag/6510df7e7bb745f69d67f695441607a8"
-    }
   },
   {
-    "id": "shakuntala-devi",
-    "name": "Shakuntala Devi",
-    "shortDescription": "Matemática prodigio, conocida como la 'Calculadora Humana'.",
-    "description": "Conocida como \"la bruja de las matemáticas\" de la India, dejó una marca indeleble en el mundo de los números. Su capacidad mental asombrosa la llevó a resolver complejos cálculos matemáticos mentalmente en cuestión de segundos, estableciendo récords mundiales. Además de su talento innato, Devi promovió activamente la educación matemática y luchó por la igualdad de género en un país donde las mujeres enfrentaban desafíos en la ciencia y la educación. Su legado destaca el poder de la mente humana y la importancia de la igualdad de oportunidades en la ciencia.",
-    "imageUrl": "https://laboratoria-dataverse-talks.netlify.app/public/shakuntala-devi.jpg",
-    "facts": {
-      "yearOfBirth": "1929",
-      "yearOfDeath": "2013",
-      "birthPlace": "Bangalore, India",
-      "mainField": "Matemáticas"
+    id: "taylor-swift",
+    name: "Taylor Swift",
+    shortDescription:
+      "Cantante y compositora estadounidense, icónica en la música country y pop.",
+    description:
+      "Taylor Swift, reconocida por su narrativa lírica y evolución musical, es una de las artistas más influyentes de la música contemporánea. Desde el country hasta el pop, Swift ha conquistado diversos géneros y ha cosechado numerosos éxitos a lo largo de su carrera.",
+    imageUrl:
+      "https://images.hola.com/us/imagenes/moda/2023032247198/looks-the-eras-tour-taylor-swift-2023-rd/0-219-993/roberto-cavalli-dos-piezas-verde-a.jpg",
+    facts: {
+      añoDeNacimiento: 1989,
+      lugarDeNacimiento: "Reading, Pennsylvania, Estados Unidos",
+      géneroMusical: "Country, Pop",
     },
-    "extraInfo": {
-      "imageSource": "https://www.bing.com/images/create/indian-woman-writing-math-problems-in-a-blackbard-/6510e19f3db54e14b365b7e8dc5045f6"
-    }
   },
   {
-    "id": "sofia-kovalevskaya",
-    "name": "Sofia Kovalevskaya",
-    "shortDescription": "Matemática y escritora, contribuyó a la teoría de funciones.",
-    "description": "Matemática rusa del siglo XIX, dejó una marca indeleble en la ciencia del siglo XIX al desafiar las barreras de género. Como matemática rusa, superó las restricciones sociales de su época para convertirse en la primera mujer en obtener un doctorado en matemáticas en Europa. Sus contribuciones a la teoría de las ecuaciones diferenciales y la mecánica revolucionaron la disciplina, abriendo nuevas perspectivas en el análisis matemático. Su destacada membresía en la Academia de Ciencias de Suecia marcó un hito en la historia de las mujeres en la ciencia.",
-    "imageUrl": "https://laboratoria-dataverse-talks.netlify.app/public/sofia-kovalevskaya.jpg",
-    "facts": {
-      "yearOfBirth": "1850",
-      "yearOfDeath": "1891",
-      "birthPlace": "Moscú, Rusia",
-      "mainField": "Matemáticas"
+    id: "rihanna",
+    name: "Rihanna",
+    shortDescription:
+      "Cantante, actriz y empresaria de Barbados, figura global en la industria musical y de la moda.",
+    description:
+      "Rihanna, cuyo nombre real es Robyn Rihanna Fenty, se ha destacado como una figura influyente en la música, el cine y la moda. Originaria de Barbados, su impacto trasciende fronteras, convirtiéndola en una de las artistas más exitosas y respetadas a nivel mundial.",
+    imageUrl:
+      "https://i.pinimg.com/736x/65/2b/4c/652b4ca36217c7e72c7678c43c744787.jpg",
+    facts: {
+      añoDeNacimiento: 1988,
+      lugarDeNacimiento: "Saint Michael, Barbados",
+      nacionalidad: "Barbadense",
     },
-    "extraInfo": {
-      "imageSource": "https://www.bing.com/images/create/indian-woman-writing-math-problems-in-a-blackbard-/6510e19f3db54e14b365b7e8dc5045f6"
-    }
   },
   {
-    "id": "yoko-shimomura",
-    "name": "Yoko Shimomura",
-    "shortDescription": "Compositora de música, destacada en la industria de los videojuegos.",
-    "description": "Compositora japonesa, es una figura destacada en la ciencia de la música y el arte sonoro. Aunque no se dedica a la ciencia en el sentido tradicional, su trabajo en la composición musical ha requerido un profundo entendimiento de la teoría musical y la tecnología de audio. Ha contribuido de manera significativa a la industria de los videojuegos, componiendo icónicas bandas sonoras que han enriquecido la experiencia de juego. Su éxito en un campo donde las mujeres estaban subrepresentadas la convierte en un modelo a seguir, incluso en campos no convencionales como la composición musical.",
-    "imageUrl": "https://laboratoria-dataverse-talks.netlify.app/public/yoko-shimomura.jpg",
-    "facts": {
-      "yearOfBirth": "1967",
-      "birthPlace": "Hyogo, Japón",
-      "mainField": "Composición Musical, Video Juegos"
+    id: "bruno-mars",
+    name: "Bruno Mars",
+    shortDescription:
+      "Cantante, compositor y productor estadounidense, versátil en géneros como pop, R&B y funk.",
+    description:
+      "Bruno Mars, cuyo nombre real es Peter Gene Hernandez, es conocido por su versatilidad musical y su habilidad para fusionar diferentes estilos. Ganador de múltiples premios, Mars ha dejado una marca duradera en la música pop contemporánea.",
+    imageUrl:
+      "https://umomag.com/wp-content/uploads/2016/10/brunomars24kn1.jpg",
+    facts: {
+      añoDeNacimiento: 1985,
+      lugarDeNacimiento: "Honolulu, Hawái, Estados Unidos",
+      géneroMusical: "Pop, R&B, Funk",
     },
-    "extraInfo": {
-      "imageSource": "https://www.bing.com/images/create/yoko-shimomura-making-music-for-a-video-game-in-19/6510e40dd1eb45d0906e8c1f4bb601d3"
-    }
   },
   {
-    "id": "maryam-mirzakhani",
-    "name": "Maryam Mirzakhani",
-    "shortDescription": "Matemática, ganadora del Premio Fields.",
-    "description": "Matemática iraní, hizo historia al convertirse en la primera mujer en ganar la Medalla Fields, el premio más prestigioso en matemáticas. Sus investigaciones en la geometría de superficies y la teoría de las superficies de Riemann han tenido un impacto duradero en la matemática pura. A lo largo de su carrera, Mirzakhani inspiró a muchas mujeres a perseguir carreras en ciencia y matemáticas, derribando las barreras de género. Su enfoque innovador y su capacidad para resolver problemas complejos la convierten en un modelo a seguir para la comunidad científica y en un símbolo de la excelencia matemática.",
-    "imageUrl": "https://laboratoria-dataverse-talks.netlify.app/public/maryam-mirzakhani.jpg",
-    "facts": {
-      "yearOfBirth": "1977",
-      "yearOfDeath": "2017",
-      "birthPlace": "Teherán, Irán",
-      "mainField": "Matemáticas"
+    id: "ariana-grande",
+    name: "Ariana Grande",
+    shortDescription:
+      "Cantante y actriz estadounidense, conocida por su potente voz y éxito en el pop.",
+    description:
+      "Ariana Grande, con su impresionante rango vocal y presencia carismática en el escenario, se ha convertido en un fenómeno pop global. Desde su debut, ha acumulado éxitos, premios y una base de fanáticos leales que la consideran una de las artistas más influyentes de su generación.",
+    imageUrl:
+      "[https://media.vogue.es/photos/5fa11a0d3505d28eb29d02a4/2:3/w_2560%2Cc_limit/Shot%25209%2520RGB%2520(Photo%2520Credit_%2520Dave%2520Meyers).jpg](https://media.vogue.es/photos/5fa11a0d3505d28eb29d02a4/2:3/w_2560%2Cc_limit/Shot%25209%2520RGB%2520(Photo%2520Credit_%2520Dave%2520Meyers).jpg)",
+    facts: {
+      añoDeNacimiento: 1993,
+      lugarDeNacimiento: "Boca Ratón, Florida, Estados Unidos",
+      géneroMusical: "Pop, R&B",
     },
-    "extraInfo": {
-      "imageSource": "https://chalkdustmagazine.com/features/mathematics-maryam-mirzakhani/"
-    }
   },
   {
-    "id": "adele-goldberg",
-    "name": "Adele Goldberg",
-    "shortDescription": "Informática pionera, co-creadora del lenguaje de programación Smalltalk.",
-    "description": "Informática estadounidense reconocida por su influyente trabajo en la investigación y desarrollo de la programación orientada a objetos. Su contribución más destacada es la creación del lenguaje de programación Smalltalk, que revolucionó la forma en que se desarrollan software y sistemas informáticos. Goldberg ha sido una defensora incansable de la usabilidad y la accesibilidad en la informática, asegurando que las aplicaciones informáticas sean más amigables para los usuarios. Su trabajo ha allanado el camino para una programación más intuitiva y eficiente, y su legado perdura en la industria de la tecnología.",
-    "imageUrl": "https://laboratoria-dataverse-talks.netlify.app/public/adele-goldberg.jpg",
-    "facts": {
-      "yearOfBirth": "1945",
-      "birthPlace": "Chicago, Estados Unidos",
-      "mainField": "Ciencias de la Computación"
+    id: "adele",
+    name: "Adele",
+    shortDescription:
+      "Cantante y compositora británica, reconocida por su potente voz y emotivas baladas.",
+    description:
+      "Adele Laurie Blue Adkins, conocida como Adele, ha dejado una huella imborrable en la música con su voz conmovedora y letras profundas. Ganadora de múltiples premios, Adele es una de las artistas más respetadas y exitosas de la escena musical internacional.",
+    imageUrl:
+      "[https://media.vogue.es/photos/615da159c092f974cef669c4/2:3/w_2560%2Cc_limit/242232817_709476587115869_4034120951213564139_n(1).jpg](https://media.vogue.es/photos/615da159c092f974cef669c4/2:3/w_2560%2Cc_limit/242232817_709476587115869_4034120951213564139_n(1).jpg)",
+    facts: {
+      añoDeNacimiento: 1988,
+      lugarDeNacimiento: "Tottenham, Londres, Inglaterra",
+      géneroMusical: "Soul, Pop",
     },
-    "extraInfo": {
-      "imageSource": "https://pionerasinformaticas.ujaen.es/en/computer-women-pioneers/adele-goldberg-en"
-    }
   },
   {
-    "id": "barbara-liskov",
-    "name": "Barbara Liskov",
-    "shortDescription": "Científica de la computación, pionera en programación orientada a objetos.",
-    "description": "Pionera de la informática, es conocida por su trabajo en la programación y la arquitectura de sistemas distribuidos. Fue la primera mujer en obtener un doctorado en ciencias de la computación en el Instituto de Tecnología de Stanford y desarrolló el lenguaje de programación CLU, que estableció fundamentos para la programación orientada a objetos. Liskov ha dejado una marca indeleble en la industria de la tecnología al liderar avances en sistemas de almacenamiento y seguridad informática. Su enfoque en la fiabilidad y la robustez ha influido en el diseño de sistemas críticos en todo el mundo.",
-    "imageUrl": "https://laboratoria-dataverse-talks.netlify.app/public/barbara-liskov.jpg",
-    "facts": {
-      "yearOfBirth": "1939",
-      "birthPlace": "Los Angeles, Estados Unidos",
-      "mainField": "Ciencia de la Computación"
+    id: "drake",
+    name: "Drake",
+    shortDescription:
+      "Cantante, rapero y productor canadiense, líder en la música hip-hop y R&B.",
+    description:
+      "Drake, cuyo nombre real es Aubrey Drake Graham, ha dominado la escena del hip-hop y R&B con su habilidad lírica y versatilidad musical. Con una lista impresionante de éxitos y récords, Drake se ha consolidado como uno de los artistas más influyentes de la música contemporánea.",
+    imageUrl:
+      "https://i.pinimg.com/originals/94/34/41/9434412ee1eafe4258a329aeac02c4d7.jpg",
+    facts: {
+      añoDeNacimiento: 1986,
+      lugarDeNacimiento: "Toronto, Ontario, Canadá",
+      géneroMusical: "Hip-Hop, R&B",
     },
-    "extraInfo": {
-      "imageSource": "https://medium.com/a-computer-of-ones-own/barbara-liskov-inventor-of-abstract-data-types-9f8908fdcf86"
-    }
   },
   {
-    "id": "grace-hopper",
-    "name": "Grace Hopper",
-    "shortDescription": "Científica de la computación, creadora del primer compilador.",
-    "description": "Una de las pioneras de la informática, es famosa por su contribución al desarrollo del primer compilador y al lenguaje de programación COBOL. Además, desafió los estereotipos de género en la década de 1940 al unirse a la Marina de los Estados Unidos y convertirse en la primera programadora de la computadora Harvard Mark I. Su legado abarca la creación de conceptos cruciales como la \"depuración de software\" y su influencia en el desarrollo de la informática moderna, estableciendo estándares para la programación de alto nivel y la innovación tecnológica.",
-    "imageUrl": "https://laboratoria-dataverse-talks.netlify.app/public/grace-hopper.jpg",
-    "facts": {
-      "yearOfBirth": "1906",
-      "yearOfDeath": "1992",
-      "birthPlace": "Nueva York, Estados Unidos",
-      "mainField": "Ciencia de la Computación"
+    id: "beyonce",
+    name: "Beyoncé",
+    shortDescription:
+      "Cantante, actriz y productora estadounidense, ícono global del R&B y pop.",
+    description:
+      "Beyoncé Knowles, conocida simplemente como Beyoncé, ha dejado una marca indeleble en la música como una de las artistas más influyentes y exitosas de la historia. Su impacto abarca el R&B, el pop y la cultura visual, convirtiéndola en una figura icónica a nivel mundial.",
+    imageUrl:
+      "https://i.pinimg.com/564x/2e/64/b5/2e64b57fbad30d0a9d439970fa706e13.jpg",
+    facts: {
+      añoDeNacimiento: 1981,
+      lugarDeNacimiento: "Houston, Texas, Estados Unidos",
+      géneroMusical: "R&B, Pop",
     },
-    "extraInfo": {
-      "imageSource": "https://photos.com/featured/grace-hopper-with-early-computer-bettmann.html"
-    }
   },
   {
-    "id": "margaret-hamilton",
-    "name": "Margaret Hamilton",
-    "shortDescription": "Científica de la computación, lideró desarrollo de software para Apollo 11.",
-    "description": "Destacada científica de la computación que desempeñó un papel fundamental en el programa Apollo de la NASA. Fue directora de la División de Ingeniería de Software en el Laboratorio de Instrumentación del MIT, donde desarrolló el concepto de \"ingeniería de software\". Su liderazgo en el desarrollo del software de vuelo para las misiones Apollo fue fundamental para el éxito de la llegada del hombre a la Luna. Hamilton es un ejemplo de cómo la tecnología y la ciencia pueden alcanzar logros extraordinarios cuando se combinan con un enfoque innovador y una visión audaz.",
-    "imageUrl": "https://laboratoria-dataverse-talks.netlify.app/public/margaret-hamilton.jpg",
-    "facts": {
-      "yearOfBirth": "1936",
-      "birthPlace": "Paoli, Indiana, Estados Unidos",
-      "mainField": "Ciencia de la Computación"
+    id: "the-weeknd",
+    name: "The Weeknd",
+    shortDescription:
+      "Cantante y productor canadiense, destacado en la música R&B y pop alternativo.",
+    description:
+      "The Weeknd, cuyo nombre real es Abel Makkonen Tesfaye, ha revolucionado la escena musical con su voz única y estilo innovador. Con éxitos que han dominado las listas de éxitos, The Weeknd se ha convertido en una figura destacada en el R&B y el pop alternativo.",
+    imageUrl:
+      "https://i.pinimg.com/originals/a2/88/93/a288939829fb777ee3aa4737b7591604.jpg",
+    facts: {
+      añoDeNacimiento: 1990,
+      lugarDeNacimiento: "Toronto, Ontario, Canadá",
+      géneroMusical: "R&B, Pop Alternativo",
     },
-    "extraInfo": {
-      "imageSource": "https://odetta.ai/blogs/margaret-hamilton-the-first-software-engineer"
-    }
   },
   {
-    "id": "radia-perlman",
-    "name": "Radia Perlman",
-    "shortDescription": "Ingeniera de redes, inventora del algoritmo Spanning Tree.",
-    "description": "Científica de la computación estadounidense, ha dejado una marca indeleble en el mundo de las redes informáticas y la seguridad. Conocida como \"la madre de Internet\", su invención del algoritmo Spanning Tree Protocol (STP) revolucionó la conectividad de redes y sentó las bases para la infraestructura de Internet moderna. A pesar de operar en un campo dominado por hombres, Perlman ha demostrado que las mujeres pueden liderar avances tecnológicos vitales. Su compromiso con la resiliencia de las redes y la ciberseguridad ha influido en la estabilidad y confiabilidad de la comunicación en línea.",
-    "imageUrl": "https://laboratoria-dataverse-talks.netlify.app/public/radia-perlman.jpg",
-    "facts": {
-      "yearOfBirth": "1951",
-      "birthPlace": "Portsmouth, Estados Unidos",
-      "mainField": "Ciencia de la Computación"
+    id: "elton-john",
+    name: "Elton John",
+    shortDescription:
+      "Cantante, compositor y pianista británico, leyenda del rock y la música pop.",
+    description:
+      "Sir Elton John, con su extravagancia, talento musical y éxitos atemporales, ha dejado una huella imborrable en la historia del rock y la música pop. Desde los años 70, su influencia y legado perduran, convirtiéndolo en una leyenda viva.",
+    imageUrl:
+      "https://tvazteca.brightspotcdn.com/dims4/default/cec1055/2147483647/strip/true/crop/590x590+178+0/resize/720x720!/format/jpg/quality/80/?url=http%3A%2F%2Ftv-azteca-brightspot.s3.amazonaws.com%2F47%2F1b%2F5bce6e4579f2fad527a6a29c676a%2Feltonjohnrevistacentralmodacantante-2302961.png",
+    facts: {
+      añoDeNacimiento: 1947,
+      lugarDeNacimiento: "Pinner, Londres, Inglaterra",
+      géneroMusical: "Rock, Pop",
     },
-    "extraInfo": {
-      "imageSource": "https://hackaday.com/2018/05/29/spanning-the-tree-dr-radia-perlman-untangling-networks/"
-    }
   },
   {
-    "id": "shafi-goldwasser",
-    "name": "Shafi Goldwasser",
-    "shortDescription": "Científica de la computación, ganadora del Premio Turing.",
-    "description": "Es una destacada criptógrafa y científica de la computación que ha contribuido significativamente a la teoría de la computación y la seguridad de la información. Su trabajo en criptografía de probabilidad y complejidad computacional ha sentado las bases para la seguridad en línea y la privacidad de datos en un mundo cada vez más digitalizado. Goldwasser es un ejemplo de cómo la ciencia de la computación puede abordar desafíos contemporáneos y proteger la información en la era de la información.",
-    "imageUrl": "https://laboratoria-dataverse-talks.netlify.app/public/shafi-goldwasser.jpg",
-    "facts": {
-      "yearOfBirth": "1958",
-      "birthPlace": "Nueva York, Estados Unidos",
-      "mainField": "Ciencia de la Computación"
+    id: "madonna",
+    name: "Madonna",
+    shortDescription:
+      "Cantante, actriz y empresaria estadounidense, reina del pop y referente cultural.",
+    description:
+      "Madonna Louise Ciccone, conocida como Madonna, es una fuerza imparable en la música pop y la cultura. Desde los años 80, ha reinventado su imagen y sonido, convirtiéndola en una de las artistas más influyentes y exitosas de todos los tiempos.",
+    imageUrl:
+      "https://cdn-3.expansion.mx/dims4/default/e3f855a/2147483647/strip/true/crop/1080x1326+0+0/resize/1200x1473!/format/webp/quality/60/?url=https%3A%2F%2Fcdn-3.expansion.mx%2F89%2Fdb%2F7a0e93444761ae7429eb5643daff%2F418634929-3241061122865010-3065166443443588358-n.jpg",
+    facts: {
+      añoDeNacimiento: 1958,
+      lugarDeNacimiento: "Bay City, Míchigan, Estados Unidos",
+      géneroMusical: "Pop",
     },
-    "extraInfo": {
-      "imageSource": "https://www.jahresbericht2019.unibe.ch/successes_2019/einstein_lectures/index_eng.html"
-    }
   },
   {
-    "id": "chien-shiung-wu",
-    "name": "Chien-Shiung Wu",
-    "shortDescription": "Física experimental, contribuyó a la física nuclear.",
-    "description": "Física experimental de origen chino, desafiando los prejuicios de género y nacionalidad, realizó experimentos fundamentales en física de partículas y contribuyó significativamente a la comprensión de la desintegración beta. Su famoso experimento \"Wu\" refutó la paridad en la física de partículas, lo que cambió la forma en que los científicos comprenden las fuerzas fundamentales de la naturaleza. Wu demostró que el talento y la perseverancia pueden superar cualquier barrera, y su legado sigue siendo un faro de inspiración para científicas en todo el mundo.",
-    "imageUrl": "https://laboratoria-dataverse-talks.netlify.app/public/chien-shiung-wu.jpg",
-    "facts": {
-      "yearOfBirth": "1912",
-      "yearOfDeath": "1997",
-      "birthPlace": "Liuhe, Taicang, China",
-      "mainField": "Física"
+    id: "katy-perry",
+    name: "Katy Perry",
+    shortDescription:
+      "Cantante y compositora estadounidense, conocida por sus éxitos pop y su estilo vibrante.",
+    description:
+      "Katy Perry, cuyo nombre real es Katheryn Elizabeth Hudson, ha dejado una marca indeleble en la música pop con sus pegajosos éxitos y estilo visual distintivo. Su carrera está marcada por la diversidad musical y la conexión con su audiencia global.",
+    imageUrl:
+      "https://img.europapress.es/fotoweb/fotonoticia_20110314122332_1200.jpg",
+    facts: {
+      añoDeNacimiento: 1984,
+      lugarDeNacimiento: "Santa Bárbara, California, Estados Unidos",
+      géneroMusical: "Pop",
     },
-    "extraInfo": {
-      "imageSource": "https://www.thoughtco.com/chien-shiung-wu-biography-3530366"
-    }
   },
   {
-    "id": "hedy-lamarr",
-    "name": "Hedy Lamarr",
-    "shortDescription": "Actriz e inventora, contribuyó al desarrollo de la tecnología de espectro ensanchado.",
-    "description": "Actriz austroamericana y científica, fue una mente brillante en la intersección de la tecnología y el entretenimiento. Junto con el compositor George Antheil, inventó un sistema de comunicación secreta durante la Segunda Guerra Mundial que sentó las bases para la tecnología de espectro ensanchado y la comunicación inalámbrica moderna. Lamarr demostró que las mujeres pueden destacar tanto en el cine como en la ciencia, y su legado como inventora ha sido fundamental para el desarrollo de la tecnología de comunicación inalámbrica que usamos en la actualidad.",
-    "imageUrl": "https://laboratoria-dataverse-talks.netlify.app/public/hedy-lamarr.jpg",
-    "facts": {
-      "yearOfBirth": "1914",
-      "yearOfDeath": "2000",
-      "birthPlace": "Viena, Austria",
-      "mainField": "Actuación, Física"
+    id: "michael-jackson",
+    name: "Michael Jackson",
+    shortDescription:
+      "Cantante, bailarín y compositor estadounidense, el Rey del Pop y leyenda musical.",
+    description:
+      "Michael Joseph Jackson, conocido como el Rey del Pop, ha dejado un legado imborrable en la música y el entretenimiento. Desde su infancia en los Jackson 5 hasta su reinado en solitario, Michael Jackson es recordado como una de las figuras más influyentes y talentosas de la historia musical.",
+    imageUrl:
+      "https://i.pinimg.com/originals/46/c5/a6/46c5a6ea9ff58cdc4091f35d2d1bbfb5.jpg",
+    facts: {
+      añoDeNacimiento: 1958,
+      lugarDeNacimiento: "Gary, Indiana, Estados Unidos",
+      géneroMusical: "Pop, R&B",
     },
-    "extraInfo": {
-      "imageSource": "https://www.sparkfun.com/news/6147"
-    }
   },
   {
-    "id": "maria-goeppert-mayer",
-    "name": "Maria Goeppert Mayer",
-    "shortDescription": "Física teórica, ganadora del Premio Nobel de Física.",
-    "description": "Física teórica alemana-estadounidense, dejó una profunda huella en la física nuclear y la mecánica cuántica. Fue la segunda mujer en recibir el Premio Nobel de Física y su trabajo pionero en la estructura de capas nucleares revolucionó nuestra comprensión de los núcleos atómicos. A pesar de las barreras de género en la academia, su dedicación y talento la llevaron a contribuir significativamente a la teoría nuclear, abriendo el camino para futuras investigadoras en un campo dominado por hombres. Maria Goeppert Mayer es un ejemplo inspirador de excelencia científica y perseverancia en la búsqueda del conocimiento.",
-    "imageUrl": "https://laboratoria-dataverse-talks.netlify.app/public/maria-goeppert-mayer.jpg",
-    "facts": {
-      "yearOfBirth": "1906",
-      "yearOfDeath": "1972",
-      "birthPlace": "Kattowitz, Alemania",
-      "mainField": "Física"
+    id: "selena-gomez",
+    name: "Selena Gomez",
+    shortDescription:
+      "Cantante, actriz y productora estadounidense, destacada en el pop y la música latina.",
+    description:
+      "Selena Gomez, con su talento multifacético, ha conquistado la música, el cine y la televisión. Desde sus inicios en Disney hasta su éxito en el pop y la música latina, Selena Gomez continúa siendo una figura influyente en la industria del entretenimiento.",
+    imageUrl:
+      "https://i.pinimg.com/originals/46/c5/a6/46c5a6ea9ff58cdc4091f35d2d1bbfb5.jpg",
+    facts: {
+      añoDeNacimiento: 1992,
+      lugarDeNacimiento: "Grand Prairie, Texas, Estados Unidos",
+      géneroMusical: "Pop, Música Latina",
     },
-    "extraInfo": {
-      "imageSource": "https://www.wsemexhibit.org/maria-goeppert-mayer.html"
-    }
   },
   {
-    "id": "lise-meitner",
-    "name": "Lise Meitner",
-    "shortDescription": "Física nuclear, contribuyó a la teoría de la fisión nuclear.",
-    "description": "Física austriaca-sueca, dejó un legado imborrable en la física nuclear y la radioquímica. A pesar de enfrentar obstáculos de género en una era dominada por hombres, colaboró con Otto Hahn en el descubrimiento de la fisión nuclear, un avance revolucionario. Aunque no compartió el Premio Nobel por este logro, su contribución fue crucial para comprender la energía nuclear y la física de partículas. Su determinación y pasión por la ciencia han inspirado a generaciones de científicas. Lise Meitner es un símbolo perdurable de la perseverancia femenina y el impacto duradero que las mujeres pueden tener en la ciencia.",
-    "imageUrl": "https://laboratoria-dataverse-talks.netlify.app/public/lise-meitner.jpg",
-    "facts": {
-      "yearOfBirth": "1878",
-      "yearOfDeath": "1968",
-      "birthPlace": "Viena, Austria",
-      "mainField": "Física"
+    id: "pharrell-williams",
+    name: "Pharrell Williams",
+    shortDescription:
+      "Cantante, productor y empresario estadounidense, líder en la música pop y urbana.",
+    description:
+      "Pharrell Williams, conocido por su creatividad y estilo innovador, ha dejado una marca indeleble en la música pop y urbana. Como productor y artista, ha contribuido a numerosos éxitos y sigue siendo una figura influyente en la escena musical contemporánea.",
+    imageUrl:
+      "https://e0.pxfuel.com/wallpapers/575/944/desktop-wallpaper-pharrell-williams-high-quality.jpg",
+    facts: {
+      añoDeNacimiento: 1973,
+      lugarDeNacimiento: "Virginia Beach, Virginia, Estados Unidos",
+      géneroMusical: "Pop, R&B, Hip-Hop",
     },
-    "extraInfo": {
-      "imageSource": "https://www.bing.com/images/create/lise-meitner-in-nuclear-physics-lab-in-19502c-retro/651196e6bbcb4009950e9955c2199760"
-    }
   },
   {
-    "id": "sau-lan-wu",
-    "name": "Sau Lan Wu",
-    "shortDescription": "Física de partículas, contribuyó a experimentos clave en física de alta energía.",
-    "description": "Física experimental sinoamericana, ha sido una fuerza motriz en la física de partículas. Destacó en experimentos en el CERN y lideró investigaciones cruciales, como el descubrimiento del quark c, que expandieron nuestro entendimiento de la estructura fundamental de la materia. Wu superó desafíos en una disciplina dominada por hombres y ha sido un faro de inspiración para científicas de todo el mundo. Sau Lan Wu es un ejemplo de excelencia científica y de cómo las mujeres pueden dejar huella en la investigación de vanguardia.",
-    "imageUrl": "https://laboratoria-dataverse-talks.netlify.app/public/sau-lan-wu.jpg",
-    "facts": {
-      "yearOfBirth": "1940",
-      "birthPlace": "Hong Kong, China",
-      "mainField": "Física de Partículas"
+    id: "demi-lovato",
+    name: "Demi Lovato",
+    shortDescription:
+      "Cantante y actriz estadounidense, reconocida por su poderosa voz y mensajes inspiradores.",
+    description:
+      "Demi Lovato, con su voz emotiva y mensajes empoderadores, ha dejado una huella positiva en la música y la cultura pop. Su carrera abarca éxitos en el pop y baladas poderosas que resuenan con su audiencia global.",
+    imageUrl:
+      "https://hips.hearstapps.com/hmg-prod/images/demi-lovato-novio-1585217808.jpg?crop=1xw:0.8xh;center,top&resize=1200:*",
+    facts: {
+      añoDeNacimiento: 1992,
+      lugarDeNacimiento: "Albuquerque, Nuevo México, Estados Unidos",
+      géneroMusical: "Pop, R&B",
     },
-    "extraInfo": {
-      "imageSource": "https://repository.aip.org/islandora/object/nbla%3A315195"
-    }
   },
   {
-    "id": "jocelyn-bell-burnell",
-    "name": "Jocelyn Bell Burnell",
-    "shortDescription": "Astrónoma y astrofísica, co-descubridora de los púlsares.",
-    "description": "Astrofísica británica, es una figura extraordinaria en la ciencia. Durante su doctorado, hizo un descubrimiento revolucionario al detectar los primeros púlsares, estrellas de neutrones altamente magnetizadas que emiten pulsos regulares de radiación. A pesar de que su asesor recibió el Premio Nobel por este descubrimiento, Bell Burnell se ha convertido en un símbolo de perseverancia y contribución de las mujeres a la astronomía. Su carrera distinguida y su activismo en favor de la diversidad de género en la ciencia han inspirado a generaciones futuras de científicas. Jocelyn Bell Burnell es un ejemplo de valentía y excelencia científica.",
-    "imageUrl": "https://laboratoria-dataverse-talks.netlify.app/public/jocelyn-bell-burnell.jpg",
-    "facts": {
-      "yearOfBirth": "1943",
-      "birthPlace": "Belfast, Reino Unido",
-      "mainField": "Astronomía, Astrofísica"
+    id: "dua-lipa",
+    name: "Dua Lipa",
+    shortDescription:
+      "Cantante y compositora británica, fenómeno del pop con éxitos globales y estilo único.",
+    description:
+      "Dua Lipa ha conquistado la escena musical con su energía, carisma y éxitos contagiosos. Desde 'New Rules' hasta 'Levitating', su impacto en el pop contemporáneo es innegable.",
+    imageUrl:
+      "https://revistavelvet.cl/wp-content/uploads/2022/09/IMG_9106.jpg",
+    facts: {
+      añoDeNacimiento: 1995,
+      lugarDeNacimiento: "Londres, Inglaterra",
+      géneroMusical: "Pop, Dance",
     },
-    "extraInfo": {
-      "imageSource": "https://womeninscienceweadmire.icfo.eu/wiswa-2/jocelyn-bell/"
-    }
   },
   {
-    "id": "dorothy-crowfoot-hodgkin",
-    "name": "Dorothy Crowfoot Hodgkin",
-    "shortDescription": "Química, ganadora del Premio Nobel de Química.",
-    "description": "Química británica, es una figura icónica en la ciencia que superó las barreras de género de su época. Su trabajo revolucionario en la cristalografía de rayos X permitió determinar la estructura de importantes biomoléculas, como la penicilina, la vitamina B12 y la insulina. Fue galardonada con el Premio Nobel de Química en 1964, siendo la tercera mujer en recibir este prestigioso reconocimiento. Hodgkin no solo fue una científica excepcional, sino también una defensora de la igualdad de género en la ciencia, allanando el camino para futuras generaciones de científicas y dejando un legado duradero en la investigación y la equidad.",
-    "imageUrl": "https://laboratoria-dataverse-talks.netlify.app/public/dorothy-crowfoot-hodgkin.jpg",
-    "facts": {
-      "yearOfBirth": "1910",
-      "yearOfDeath": "1994",
-      "birthPlace": "El Cairo, Egipto / Shipston-on-Stour, Reino Unido",
-      "mainField": "Química"
+    id: "ricky-martin",
+    name: "Ricky Martin",
+    shortDescription:
+      "Cantante, actor y autor puertorriqueño, pionero del pop latino y fenómeno global.",
+    description:
+      "Ricky Martin, con su carisma y talento, ha llevado el pop latino a nivel internacional. Desde 'Livin' la Vida Loca' hasta su activismo, su impacto en la música y la cultura es innegable.",
+    imageUrl:
+      "https://media.vogue.mx/photos/628eb5e05370d01c2c3f4b60/master/pass/ricky-martin-esmoquin-berluti-cannes-2022.jpg",
+    facts: {
+      añoDeNacimiento: 1971,
+      lugarDeNacimiento: "San Juan, Puerto Rico",
+      géneroMusical: "Pop Latino",
     },
-    "extraInfo": {
-      "imageSource": "https://www.some.ox.ac.uk/news/jan-royall-why-we-must-champion-dorothy-hodgkin-for-the-50-note/"
-    }
   },
   {
-    "id": "marie-curie",
-    "name": "Marie Curie",
-    "shortDescription": "Física y química, ganadora de dos Premios Nobel.",
-    "description": "física y química de origen polaco y nacionalizada francesa, es una de las figuras más icónicas en la historia de la ciencia. Ganadora de dos premios Nobel (Física en 1903 y Química en 1911), Curie realizó investigaciones fundamentales sobre la radiactividad y el descubrimiento de los elementos radio y polonio. Su dedicación y valentía en la investigación científica, a pesar de los desafíos de la discriminación de género y los riesgos de la radiación, la convierten en un modelo a seguir para científicas de todo el mundo.",
-    "imageUrl": "https://laboratoria-dataverse-talks.netlify.app/public/marie-curie.jpg",
-    "facts": {
-      "yearOfBirth": "1867",
-      "yearOfDeath": "1934",
-      "birthPlace": "Varsovia, Polonia",
-      "mainField": "Física y Química"
+    id: "miley-cyrus",
+    name: "Miley Cyrus",
+    shortDescription:
+      "Cantante, actriz y personalidad multifacética, reconocida por su estilo ecléctico y rebelde.",
+    description:
+      "Miley Cyrus, nacida como Destiny Hope Cyrus, es una destacada cantante, actriz y figura pública conocida por su versatilidad y estilo único. Surgió a la fama como la protagonista de la exitosa serie de Disney 'Hannah Montana', pero ha evolucionado continuamente en su carrera artística, explorando diversos géneros musicales y desafiando convenciones culturales.",
+    imageUrl:
+      "https://media.vogue.es/photos/5cc7396fb37dfa068a0c772e/master/w_1600%2Cc_limit/vogue_espana_973231642.jpg",
+    facts: {
+      añoDeNacimiento: 1992,
+      lugarDeNacimiento: "Franklin, Tennessee, Estados Unidos",
+      géneroMusical: "Pop, Rock, Country",
     },
-    "extraInfo": {
-      "imageSource": "https://www.historyextra.com/period/first-world-war/life-of-the-week-marie-curie/"
-    }
   },
   {
-    "id": "marjory-stephenson",
-    "name": "Marjory Stephenson",
-    "shortDescription": "Microbióloga y bioquímica, investigó en enzimología.",
-    "description": "Bioquímica británica, brilló como científica en una época en la que las mujeres enfrentaban obstáculos muy significativos en la investigación científica. Su trabajo pionero en microbiología, enzimología y bioquímica contribuyó al entendimiento de procesos fundamentales en la vida. Fue una de las primeras mujeres en ser elegida miembro de la Royal Society, un reconocimiento a su destacada contribución a la ciencia. Además, fue una mentora y defensora de las mujeres en la ciencia, inspirando y allanando el camino para futuras generaciones.",
-    "imageUrl": "https://laboratoria-dataverse-talks.netlify.app/public/marjory-stephenson.jpg",
-    "facts": {
-      "yearOfBirth": "1885",
-      "yearOfDeath": "1948",
-      "birthPlace": "Londres, Reino Unido",
-      "mainField": "Química, Microbiología, Bioquímica"
+    id: "sia",
+    name: "Sia",
+    shortDescription:
+      "Cantante y compositora australiana, reconocida por su voz única y colaboraciones exitosas.",
+    description:
+      "Sia Furler, conocida simplemente como Sia, ha dejado una marca en la música con su distintiva voz y habilidad para componer éxitos. Desde 'Chandelier' hasta 'Cheap Thrills', su presencia en la escena pop es notable.",
+    imageUrl:
+      "https://media.newyorker.com/photos/5a341cf89010b53ac7696edb/master/pass/StFelix-Sia-Christmas-Album.jpg",
+    facts: {
+      añoDeNacimiento: 1975,
+      lugarDeNacimiento: "Adelaida, Australia",
+      géneroMusical: "Pop, Electropop",
     },
-    "extraInfo": {
-      "imageSource": "https://microbiologysociety.org/grants-prizes/all-prizes-and-competitions-/prize-lectures/marjory-stephenson-prize-lecture/marjory-stephenson-a-short-history.html"
-    }
   },
   {
-    "id": "rosalind-franklin",
-    "name": "Rosalind Franklin",
-    "shortDescription": "Química y cristalógrafa, contribuyó a la comprensión de la estructura del ADN.",
-    "description": "Química y cristalógrafa británica, destacó en un campo dominado por hombres y su contribución a la ciencia es innegable. Sus investigaciones pioneras en la cristalografía de rayos X fueron fundamentales para revelar la estructura del ADN en forma de doble hélice, un hito crucial en la biología molecular. A pesar de que su trabajo inicial fue subestimado, su determinación y habilidad científica allanaron el camino para futuros avances en genética y biología. Franklin es un ejemplo inspirador de cómo las mujeres pueden sobresalir en la ciencia, dejando un legado duradero en la investigación y la igualdad de género.",
-    "imageUrl": "https://laboratoria-dataverse-talks.netlify.app/public/rosalind-franklin.jpg",
-    "facts": {
-      "yearOfBirth": "1920",
-      "yearOfDeath": "1958",
-      "birthPlace": "Londres, Reino Unido",
-      "mainField": "Química, Cristalografía"
+    id: "bob-marley",
+    name: "Bob Marley",
+    shortDescription:
+      "Cantante, compositor y músico jamaicano, ícono del reggae y defensor de la justicia social.",
+    description:
+      "Bob Marley, a través de su música reggae contagiosa y mensajes de amor y resistencia, ha dejado una huella indeleble en la cultura musical. Su legado trasciende géneros y fronteras.",
+    imageUrl:
+      "https://miro.medium.com/v2/resize:fit:500/1*ev5k04O92dlKsU2IeOuvTQ.jpeg",
+    facts: {
+      añoDeNacimiento: 1945,
+      lugarDeNacimiento: "Nine Mile, Jamaica",
+      géneroMusical: "Reggae",
     },
-    "extraInfo": {
-      "imageSource": ""
-    }
-  }
+  },
 ];

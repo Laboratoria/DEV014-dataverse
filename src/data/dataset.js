@@ -36,7 +36,7 @@
       "Cantante, actriz y activista estadounidense, reconocida por su estilo innovador y voz potente.",
     description:
       "Stefani Joanne Angelina Germanotta, conocida como Lady Gaga, ha dejado una marca imborrable en la música, el cine y la moda. Nacida en Nueva York en 1986, su carrera artística se caracteriza por su innovación y autenticidad. Gaga es una fuerza creativa que ha desafiado convenciones con su estilo único y provocador. Su música, que abarca géneros como pop, dance y electrónica, ha conquistado audiencias globales. Además de su talento musical, Lady Gaga ha destacado en la actuación, ganando reconocimiento por su papel en 'A Star is Born'.",
-    imageUrl: "https://img2.rtve.es/im/6195119/?w=900",
+    imageUrl: "https://img2.rtve.es/im/6195119/?w=900.jpg",
     facts: {
       yearOfBirth: 1986,
       placeOfBirth: "Nueva York, Estados Unidos",
@@ -125,7 +125,7 @@
     description:
       "Adele, la renombrada cantante británica, cautiva con su voz única y emotiva que trasciende géneros musicales. Nacida el 5 de mayo de 1988 en Tottenham, Londres, su impacto en la industria es innegable. Con álbumes aclamados como '21' y '25', ha conquistado premios Grammy y el reconocimiento global. Su habilidad para transmitir emociones profundas a través de letras introspectivas la distingue, convirtiéndola en un ícono de la música contemporánea. Adele, con su presencia sencilla pero poderosa, sigue siendo una fuerza dominante en la escena musical, dejando una huella indeleble en el corazón de sus seguidores",
     imageUrl:
-      "[https://media.vogue.es/photos/615da159c092f974cef669c4/2:3/w_2560%2Cc_limit/242232817_709476587115869_4034120951213564139_n(1).jpg](https://media.vogue.es/photos/615da159c092f974cef669c4/2:3/w_2560%2Cc_limit/242232817_709476587115869_4034120951213564139_n(1).jpg)",
+      "https://media.vogue.es/photos/615da159c092f974cef669c4/2:3/w_2560%2Cc_limit/242232817_709476587115869_4034120951213564139_n(1).jpg",
     facts: {
       yearOfBirth: 1988,
       placeOfBirth: "Tottenham, Londres, Inglaterra",

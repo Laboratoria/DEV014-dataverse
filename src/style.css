@@ -1,0 +1,102 @@
+* {
+  font-family: "Lato", sans-serif;
+  margin: 0;
+}
+:root {
+  --Purple: #824085;
+  --gray: #8688a6;
+  --white: #edf8f8;
+  --black: #100421;
+  --soft-pink: #f8f2f3;
+}
+body {
+  background-color: var(--soft-pink);
+}
+header {
+  font-size: 3.5rem;
+  border: 0;
+  width: 100%;
+  padding: auto;
+  margin: 4rem auto;
+}
+h1 {
+  text-align: center;
+  font-weight: 900;
+}
+h2 {
+  text-align: center;
+  font-size: 2.5rem;
+  font-weight: 700;
+  margin-top: 0%;
+  margin-bottom: 5rem;
+}
+main {
+  margin: 0 auto;
+  max-width: 120rem;
+  width: 90%;
+}
+.flex-container {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+#gender,
+#sort,
+#compute {
+  border-radius: 1.5rem;
+  font-size: 1rem;
+  font-weight: 900;
+  background: var(--Purple);
+  color: var(--white);
+  height: 4rem;
+  width: 10rem;
+  border: none;
+  box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.5);
+  text-align: center;
+}
+select option {
+  color: var(--black);
+  background-color: var(--white);
+}
+#gender:hover {
+  background-color: var(--gray);
+}
+#sort:hover {
+  background-color: var(--gray);
+}
+#compute:hover {
+  background-color: var(--gray);
+}
+#buttonClear {
+  background-color: var(--white);
+  font-weight: 900;
+  height: 3rem;
+  width: 9rem;
+  border: none;
+  border-radius: 1.5rem;
+  box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.5);
+}
+#buttonClear:hover {
+  background-color: var(--gray);
+}
+.styleUl {
+  display: flex;
+  flex-direction: row;
+  flex-flow: row;
+  justify-content: center;
+  list-style: none;
+  background-color: var(--white);
+}
+.styleLi {
+  width: 36rem;
+  height: 60rem;
+}
+.styleLi img {
+  width: 20rem;
+  height: 20rem;
+}
+.styleLi .nameSinger {
+  font-weight: 900;
+  font-size: 2rem;
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+}

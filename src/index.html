@@ -2,7 +2,14 @@
 <html>
   <head>
     <meta charset="utf-8" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap"
+      rel="stylesheet"
+    />
     <title>Dataverse</title>
+
     <link rel="stylesheet" href="style.css" />
   </head>
   <body>
@@ -12,25 +19,30 @@
 
     <main>
       <h2>Encuentra la información más top de tus artistas favoritos</h2>
-      
-      <label for="gender"></label>
-      <select name="gender" id="gender" data-testid="select-filter">
-        <option value="female">Femenino</option>
-        <option value="male">Masculino</option>
-      </select>
-      
-      <label for="sort"></label>
-        <select name="sort" id="sort" data-testid="select-sort" >
-          <option value="asc">ascendente por año de nacimiento</option>
-          <option value="desc">descendente por año de nacimiento</option>
-        </select>
-      
-
-      <button data-testid="button-clear">Limpiar Filtros</button>
-
-      <div id="root">
+      <div class="flex-container">
+        <div>
+          <label for="gender"></label>
+          <select name="gender" id="gender" data-testid="select-filter">
+            <option value="" disabled selected>Filtrar por:</option>
+            <option value="female">Femenino</option>
+            <option value="male">Masculino</option>
+          </select>
+        </div>
+        <div>
+          <label for="sort"></label>
+          <select name="sort" id="sort" data-testid="select-sort">
+            <option value="" disabled selected>Organizar por:</option>
+            <option value="asc">ascendente por año de nacimiento</option>
+            <option value="desc">descendente por año de nacimiento</option>
+          </select>
+        </div>
+        <button id="compute">Reproducciones:</button>
+        <button data-testid="button-clear" id="buttonClear">
+          Limpiar Filtros
+        </button>
       </div>
-      
+
+      <div id="root"></div>
     </main>
 
     <footer></footer>

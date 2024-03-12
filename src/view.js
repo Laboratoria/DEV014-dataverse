@@ -1,6 +1,27 @@
 export const renderItems = (data) => {
-  console.log(data)
-  // Aquí comienza tu código y puedes retornar lo que tu necesites
-  return 'example';
-};
+  const ulList = document.createElement("ul");
+  ulList.classList.add("styleUl");
 
+  data.forEach((singer) => {
+    const liSinger = document.createElement("li");
+    liSinger.classList.add("styleLi");
+    const dlSinger = document.createElement("dl");
+    liSinger.setAttribute("itemscope", "");
+    liSinger.setAttribute("itemtype", "singers");
+
+    dlSinger.innerHTML = `
+      <dt class="nameSinger">${singer.name}</dt>
+      <img src="${singer.imageUrl}">
+      <dt itemprop="shortDescription" class="shortDescription" >${singer.shortDescription}</dt>
+      <dt itemprop="description" class="description">${singer.description}</dt>
+      <dt itemprop="yearOfBirth" class="yearOfBirth"> <span>Año de Nacimiento:</span> ${singer.facts.yearOfBirth}</dt>
+      <dt itemprop="placeOfBirth" class="placeOfBirth"> <span>Lugar de Nacimiento:</span> ${singer.facts.placeOfBirth}</dt>
+      <dt itemprop="mainGenre" class="mainGenre"> <span>Género:</span>${singer.facts.mainGenre}</dt>
+    `;
+
+    liSinger.appendChild(dlSinger);
+    ulList.appendChild(liSinger);
+  });
+
+  return ulList;
+};

@@ -1,11 +1,48 @@
 <!DOCTYPE html>
 <html>
   <head>
-    <meta charset="utf-8">
+    <meta charset="utf-8" />
     <title>Dataverse</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="style.css" />
   </head>
   <body>
+    <header>
+      <h1>Tu artista favorito, ¡aquí!</h1>
+    </header>
+
+    <main>
+      <h2>Encuentra la información más top de tus artistas favoritos</h2>
+      <div class="flex-container">
+        <div>
+          <label for="gender"></label>
+          <select name="gender" id="gender" data-testid="select-filter">
+            <option value="" disabled selected>Filtrar por:</option>
+            <option value="female">Femenino</option>
+            <option value="male">Masculino</option>
+          </select>
+        </div>
+        <div>
+          <label for="sort"></label>
+          <select name="sort" id="sort" data-testid="select-sort">
+            <option value="" disabled selected>Organizar por:</option>
+            <option value="asc">ascendente por año de nacimiento</option>
+            <option value="desc">descendente por año de nacimiento</option>
+          </select>
+        </div>
+        <button id="compute">Reproducciones:</button>
+        <button data-testid="button-clear" id="buttonClear">
+          Limpiar Filtros
+        </button>
+      </div>
+
+      <div id="root"></div>
+    </main>
+
+    <footer>
+      <p class="footerP">Autoras: Denis Álvarez -Deniisolo y Catherin Romero -Cathe1805</p>
+    </footer>
+
     <script src="main.js" type="module"></script>
   </body>
 </html>

@@ -111,17 +111,27 @@ select option {
   text-align: start;
 }
 
-.shortDescription{
+.shortDescription {
   margin-top: 1rem;
   margin-bottom: 1rem;
 }
-.description{
+.description {
   margin-top: 1rem;
   margin-bottom: 1rem;
 }
-.styleLi{
+.styleLi {
   text-align: justify;
 }
 span {
   font-weight: 900;
+}
+footer  {
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+  background-color: var(--gray);
+  color: var(--white);
+  text-align: center;
+  padding: 10px;
+  font-weight: 700;
 }

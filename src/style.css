@@ -90,7 +90,7 @@ select option {
 }
 .styleLi {
   width: 20rem;
-  height: 50rem;
+  height: 54rem;
   margin-bottom: 1rem;
   padding: 2rem;
   text-align: center;
@@ -100,7 +100,7 @@ select option {
 }
 .styleLi img {
   width: 20rem;
-  height: 20rem;
+  height: 21rem;
   border-radius: 2rem;
   box-shadow: 1px 1px 10px rgba(0, 0, 0, 0.5);
 }
@@ -109,4 +109,19 @@ select option {
   font-size: 2rem;
   text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
   text-align: start;
+}
+
+.shortDescription{
+  margin-top: 1rem;
+  margin-bottom: 1rem;
+}
+.description{
+  margin-top: 1rem;
+  margin-bottom: 1rem;
+}
+.styleLi{
+  text-align: justify;
+}
+span {
+  font-weight: 900;
 }

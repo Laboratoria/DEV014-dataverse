@@ -12,11 +12,11 @@ export const renderItems = (data) => {
     dlSinger.innerHTML = `
       <dt class="nameSinger">${singer.name}</dt>
       <img src="${singer.imageUrl}">
-      <dt itemprop="shortDescription">${singer.shortDescription}</dt>
-      <dt itemprop="description">${singer.description}</dt>
-      <dt itemprop="yearOfBirth">Año de Nacimiento:${singer.facts.yearOfBirth}</dt>
-      <dt itemprop="placeOfBirth">Lugar de Nacimiento:${singer.facts.placeOfBirth}</dt>
-      <dt itemprop="mainGenre">Género:${singer.facts.mainGenre}</dt>
+      <dt itemprop="shortDescription" class="shortDescription" >${singer.shortDescription}</dt>
+      <dt itemprop="description" class="description">${singer.description}</dt>
+      <dt itemprop="yearOfBirth" class="yearOfBirth"> <span>Año de Nacimiento:</span> ${singer.facts.yearOfBirth}</dt>
+      <dt itemprop="placeOfBirth" class="placeOfBirth"> <span>Lugar de Nacimiento:</span> ${singer.facts.placeOfBirth}</dt>
+      <dt itemprop="mainGenre" class="mainGenre"> <span>Género:</span>${singer.facts.mainGenre}</dt>
     `;
 
     liSinger.appendChild(dlSinger);
@@ -25,4 +25,3 @@ export const renderItems = (data) => {
 
   return ulList;
 };
-

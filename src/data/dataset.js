@@ -245,7 +245,7 @@
     description:
       "Selena Gomez, con su talento multifacético, ha conquistado la música, el cine y la televisión. Desde sus inicios en Disney hasta su éxito en el pop y la música latina, Selena Gomez continúa siendo una figura influyente en la industria del entretenimiento. Su habilidad para conectarse con su audiencia a través de sus letras honestas y su carisma en pantalla la ha convertido en un modelo a seguir para muchos jóvenes. Además de su éxito en la música, Gomez ha demostrado ser una actriz talentosa, participando en proyectos cinematográficos y televisivos aclamados por la crítica.",
     imageUrl:
-      "https://i.pinimg.com/originals/46/c5/a6/46c5a6ea9ff58cdc4091f35d2d1bbfb5.jpg",
+      "https://hips.hearstapps.com/hmg-prod/images/gettyimages-1189823455.jpg",
     facts: {
       yearOfBirth: 1992,
       placeOfBirth: "Grand Prairie, Texas, Estados Unidos",

@@ -17,5 +17,5 @@ container.appendChild(renderItems(data));
 mainGenre.addEventListener("change", (e) => {
   const optionValue = e.target.value;
   const filterResult = filterData(data, "mainGenre", optionValue);
-  console.log(renderItems(filterResult));
+  container.appendChild(renderItems(filterResult))
 });

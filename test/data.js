@@ -14,7 +14,7 @@ export const data = [
     facts: {
       yearOfBirth: 1977,
       placeOfBirth: "Barranquilla, Colombia",
-      mainGenre: "Pop, Rock, Latino",
+      mainGenre: "Rock",
     },
   },
   {
@@ -29,7 +29,7 @@ export const data = [
     facts: {
       yearOfBirth: 1975,
       placeOfBirth: "Madrid, España",
-      mainGenre: "Pop Latino",
+      mainGenre: "Latino",
     },
   },
   {
@@ -43,7 +43,7 @@ export const data = [
     facts: {
       yearOfBirth: 1986,
       placeOfBirth: "Nueva York, Estados Unidos",
-      mainGenre: "Pop, Dance, Electrónica",
+      mainGenre: "Pop",
     },
   },
   {
@@ -72,7 +72,7 @@ export const data = [
     facts: {
       yearOfBirth: 1989,
       placeOfBirth: "Reading, Pennsylvania, Estados Unidos",
-      mainGenre: "Country, Pop",
+      mainGenre: "Pop",
     },
   },
 ];

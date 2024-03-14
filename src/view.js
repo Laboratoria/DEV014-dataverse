@@ -1,4 +1,8 @@
 export const renderItems = (data) => {
+  const container = document.querySelector("#root");
+  while (container.firstChild) {
+    container.removeChild(container.firstChild);
+  }
   const ulList = document.createElement("ul");
   ulList.classList.add("styleUl");
 

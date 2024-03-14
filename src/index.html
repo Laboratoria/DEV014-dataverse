@@ -13,27 +13,36 @@
 
     <main>
       <h2>Encuentra la información más top de tus artistas favoritos</h2>
+
       <div class="flex-container">
+
         <div>
-          <label for="gender"></label>
-          <select name="gender" id="gender" data-testid="select-filter">
+          <label for="mainGenre"></label>
+          <select name="mainGenre" id="mainGenre" data-testid="select-filter">
             <option value="" disabled selected>Filtrar por:</option>
-            <option value="female">Femenino</option>
-            <option value="male">Masculino</option>
+            <option value="Pop">Pop</option>
+            <option value="Latino">Latino</option>
+            <option value="Rock">Rock</option>
+            <option value="R&B">R&B</option>
+            <option value="Reggae">Reggae</option>
           </select>
         </div>
+
         <div>
           <label for="sort"></label>
           <select name="sort" id="sort" data-testid="select-sort">
             <option value="" disabled selected>Organizar por:</option>
-            <option value="asc">ascendente por año de nacimiento</option>
-            <option value="desc">descendente por año de nacimiento</option>
+            <option value="asc">Ascendente por año de nacimiento</option>
+            <option value="desc">Descendente por año de nacimiento</option>
           </select>
         </div>
+
         <button id="compute">Reproducciones:</button>
+
         <button data-testid="button-clear" id="buttonClear">
           Limpiar Filtros
         </button>
+
       </div>
 
       <div id="root"></div>

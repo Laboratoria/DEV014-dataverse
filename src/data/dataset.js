@@ -11,7 +11,7 @@
     facts: {
       yearOfBirth: 1977,
       placeOfBirth: "Barranquilla, Colombia",
-      mainGenre: "Pop, Rock, Latino",
+      mainGenre: "Rock",
     },
   },
   {
@@ -26,7 +26,7 @@
     facts: {
       yearOfBirth: 1975,
       placeOfBirth: "Madrid, España",
-      mainGenre: "Pop Latino",
+      mainGenre: "Latino",
     },
   },
   {
@@ -40,7 +40,7 @@
     facts: {
       yearOfBirth: 1986,
       placeOfBirth: "Nueva York, Estados Unidos",
-      mainGenre: "Pop, Dance, Electrónica",
+      mainGenre: "Pop",
     },
   },
   {
@@ -69,7 +69,7 @@
     facts: {
       yearOfBirth: 1989,
       placeOfBirth: "Reading, Pennsylvania, Estados Unidos",
-      mainGenre: "Country, Pop",
+      mainGenre: "Pop",
     },
   },
   {
@@ -84,7 +84,7 @@
     facts: {
       yearOfBirth: 1988,
       placeOfBirth: "Saint Michael, Barbados",
-      mainGenre: "Pop, R&B",
+      mainGenre: "R&B",
     },
   },
   {
@@ -99,7 +99,7 @@
     facts: {
       yearOfBirth: 1985,
       placeOfBirth: "Honolulu, Hawái, Estados Unidos",
-      mainGenre: "Pop, R&B, Funk",
+      mainGenre: "R&B",
     },
   },
   {
@@ -114,7 +114,7 @@
     facts: {
       yearOfBirth: 1993,
       placeOfBirth: "Boca Ratón, Florida, Estados Unidos",
-      mainGenre: "Pop, R&B",
+      mainGenre: "R&B",
     },
   },
   {
@@ -129,7 +129,7 @@
     facts: {
       yearOfBirth: 1988,
       placeOfBirth: "Tottenham, Londres, Inglaterra",
-      mainGenre: "Soul, Pop",
+      mainGenre: "Pop",
     },
   },
   {
@@ -144,7 +144,7 @@
     facts: {
       yearOfBirth: 1986,
       placeOfBirth: "Toronto, Ontario, Canadá",
-      mainGenre: "Hip-Hop, R&B",
+      mainGenre: "R&B",
     },
   },
   {
@@ -159,7 +159,7 @@
     facts: {
       yearOfBirth: 1981,
       placeOfBirth: "Houston, Texas, Estados Unidos",
-      mainGenre: "R&B, Pop",
+      mainGenre: "R&B",
     },
   },
   {
@@ -174,7 +174,7 @@
     facts: {
       yearOfBirth: 1990,
       placeOfBirth: "Toronto, Ontario, Canadá",
-      mainGenre: "R&B, Pop Alternativo",
+      mainGenre: "R&B",
     },
   },
   {
@@ -189,7 +189,7 @@
     facts: {
       yearOfBirth: 1947,
       placeOfBirth: "Pinner, Londres, Inglaterra",
-      mainGenre: "Rock, Pop",
+      mainGenre: "Rock",
     },
   },
   {
@@ -234,7 +234,7 @@
     facts: {
       yearOfBirth: 1958,
       placeOfBirth: "Gary, Indiana, Estados Unidos",
-      mainGenre: "Pop, R&B",
+      mainGenre: "Pop",
     },
   },
   {
@@ -249,7 +249,7 @@
     facts: {
       yearOfBirth: 1992,
       placeOfBirth: "Grand Prairie, Texas, Estados Unidos",
-      mainGenre: "Pop, Música Latina",
+      mainGenre: "Pop",
     },
   },
   {
@@ -264,7 +264,7 @@
     facts: {
       yearOfBirth: 1973,
       placeOfBirth: "Virginia Beach, Virginia, Estados Unidos",
-      mainGenre: "Pop, R&B, Hip-Hop",
+      mainGenre: "Pop",
     },
   },
   {
@@ -279,7 +279,7 @@
     facts: {
       yearOfBirth: 1992,
       placeOfBirth: "Albuquerque, Nuevo México, Estados Unidos",
-      mainGenre: "Pop, R&B",
+      mainGenre: "Pop",
     },
   },
   {
@@ -294,7 +294,7 @@
     facts: {
       yearOfBirth: 1995,
       placeOfBirth: "Londres, Inglaterra",
-      mainGenre: "Pop, Dance",
+      mainGenre: "Pop",
     },
   },
   {
@@ -309,7 +309,7 @@
     facts: {
       yearOfBirth: 1971,
       placeOfBirth: "San Juan, Puerto Rico",
-      mainGenre: "Pop Latino",
+      mainGenre: "Latino",
     },
   },
   {
@@ -324,7 +324,7 @@
     facts: {
       yearOfBirth: 1992,
       placeOfBirth: "Franklin, Tennessee, Estados Unidos",
-      mainGenre: "Pop, Rock, Country",
+      mainGenre: "Pop",
     },
   },
   {
@@ -339,7 +339,7 @@
     facts: {
       yearOfBirth: 1975,
       placeOfBirth: "Adelaida, Australia",
-      mainGenre: "Pop, Electropop",
+      mainGenre: "Pop",
     },
   },
   {

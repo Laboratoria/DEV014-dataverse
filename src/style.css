@@ -65,7 +65,7 @@ main {
     margin-top: 0.2rem;
   }
 }
-#gender,
+#mainGenre,
 #sort,
 #compute {
   border-radius: 1.5rem;
@@ -80,7 +80,7 @@ main {
   text-align: center;
 }
 @media (max-width: 500px) {
-  #gender,
+  #mainGenre,
   #sort,
   #compute {
     border-radius: 1.5rem;
@@ -100,7 +100,7 @@ select option {
   background-color: var(--white);
 }
 
-#gender:hover {
+#mainGenre:hover {
   background-color: var(--gray);
 }
 #sort:hover {

@@ -14,6 +14,7 @@ const container = document.querySelector("#root");
 const mainGenre = document.querySelector("#mainGenre");
 const compute = document.getElementById("compute");
 const changeCompute = document.getElementById("conteinerCompute");
+changeCompute.style.display = "none";
 const sort = document.querySelector("#sort");
 
 container.appendChild(renderItems(data));
@@ -38,9 +39,14 @@ sort.addEventListener("change", (e) => {
 
 compute.addEventListener("click", function () {
   const cumputeResult = computeStats(data);
-  changeCompute.innerHTML =
-    "Sabias que el:   " +
-    cumputeResult +
-    "%" +
-    " de cantantes nacieron entre 1970 y 1990";
+  if (changeCompute.style.display === "none") {
+    changeCompute.style.display = "block";
+    changeCompute.innerHTML =
+      "Sabias que el:   " +
+      cumputeResult +
+      "%" +
+      " de cantantes nacieron entre 1970 y 1990";
+  } else {
+    changeCompute.style.display = "none";
+  }
 });

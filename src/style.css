@@ -189,3 +189,12 @@ footer {
   padding: 10px;
   font-weight: 700;
 }
+#conteinerCompute{
+  font-weight: 700;
+  font-size: 1.5rem;
+}
+@media (max-width: 500px) {
+  #conteinerCompute {
+  font-size: 0.7rem;
+  }
+}

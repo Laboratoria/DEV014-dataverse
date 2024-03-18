@@ -17,7 +17,6 @@ export const renderItems = (data) => {
       <dt class="nameSinger">${singer.name}</dt>
       <img src="${singer.imageUrl}">
       <dt itemprop="shortDescription" class="shortDescription" >${singer.shortDescription}</dt>
-      <dt itemprop="description" class="description">${singer.description}</dt>
       <dt itemprop="yearOfBirth" class="yearOfBirth"> <span>Año de Nacimiento:</span> ${singer.facts.yearOfBirth}</dt>
       <dt itemprop="placeOfBirth" class="placeOfBirth"> <span>Lugar de Nacimiento:</span> ${singer.facts.placeOfBirth}</dt>
       <dt itemprop="mainGenre" class="mainGenre"> <span>Género:</span>${singer.facts.mainGenre}</dt>

@@ -112,8 +112,8 @@ select option {
 #buttonClear {
   background-color: var(--white);
   font-weight: 900;
-  height: 3rem;
-  width: 9rem;
+  height: 4rem;
+  width: 10rem;
   border: none;
   border-radius: 1.5rem;
   box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.5);
@@ -144,7 +144,7 @@ select option {
 }
 .styleLi {
   width: 20rem;
-  height: 54rem;
+  height: 35rem;
   margin-bottom: 1rem;
   padding: 2rem;
   text-align: center;

@@ -15,6 +15,7 @@ const mainGenre = document.querySelector("#mainGenre");
 const compute = document.getElementById("compute");
 const changeCompute = document.getElementById("conteinerCompute");
 changeCompute.style.display = "none";
+const cleanButton = document.getElementById("buttonClear")
 const sort = document.querySelector("#sort");
 
 container.appendChild(renderItems(data));
@@ -50,3 +51,10 @@ compute.addEventListener("click", function () {
     changeCompute.style.display = "none";
   }
 });
+
+cleanButton.addEventListener('click', () => {
+  container.appendChild(renderItems(data));
+  changeCompute.innerHTML = ""
+  mainGenre.options[0].selected = true;
+  sort.options[0].selected = true;
+})

@@ -10,8 +10,8 @@ export const renderItems = (data) => {
     const liSinger = document.createElement("li");
     liSinger.classList.add("styleLi");
     const dlSinger = document.createElement("dl");
-    dlSinger.setAttribute("itemscope", "");
-    dlSinger.setAttribute("itemtype", "singers");
+    liSinger.setAttribute("itemtype", "singers");
+    liSinger.setAttribute("itemscope", "");
 
     dlSinger.innerHTML = `
       <dt class="nameSinger">${singer.name}</dt>

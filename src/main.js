@@ -5,8 +5,6 @@ import { renderItems } from "./view.js";
 
 import data from "./data/dataset.js";
 
-// console.log(example, renderItems(data), data);
-
 renderItems(data);
 
 //variables
@@ -15,7 +13,7 @@ const mainGenre = document.querySelector("#mainGenre");
 const compute = document.getElementById("compute");
 const changeCompute = document.getElementById("conteinerCompute");
 changeCompute.style.display = "none";
-const cleanButton = document.getElementById("buttonClear")
+const cleanButton = document.getElementById("buttonClear");
 const sort = document.querySelector("#sort");
 
 container.appendChild(renderItems(data));
@@ -43,18 +41,18 @@ compute.addEventListener("click", function () {
   if (changeCompute.style.display === "none") {
     changeCompute.style.display = "block";
     changeCompute.innerHTML =
-      "Sabias que el:   " +
+      "El  " +
       cumputeResult +
       "%" +
-      " de cantantes nacieron entre 1970 y 1990";
+      "  de los cantantes en nuestra base de datos nacieron entre 1970 y 1990.";
   } else {
     changeCompute.style.display = "none";
   }
 });
 
-cleanButton.addEventListener('click', () => {
+cleanButton.addEventListener("click", () => {
   container.appendChild(renderItems(data));
-  changeCompute.innerHTML = ""
+  changeCompute.innerHTML = "";
   mainGenre.options[0].selected = true;
   sort.options[0].selected = true;
-})
+});
